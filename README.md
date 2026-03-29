@@ -1,5 +1,3 @@
-**Welcome to your Base44 project** 
-
 **About**
 
 This project contains everything you need to run your app locally.
