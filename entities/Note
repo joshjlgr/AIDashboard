@@ -1,0 +1,29 @@
+{
+  "name": "Note",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the note"
+    },
+    "content": {
+      "type": "string",
+      "description": "Content of the note"
+    },
+    "color": {
+      "type": "string",
+      "enum": [
+        "yellow",
+        "blue",
+        "green",
+        "pink",
+        "purple"
+      ],
+      "default": "yellow",
+      "description": "Color theme of the note"
+    }
+  },
+  "required": [
+    "title"
+  ]
+}
